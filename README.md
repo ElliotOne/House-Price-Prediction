@@ -63,9 +63,13 @@ Each row represents a house and its corresponding sale price.
 ### -----------------------------------
 
 LossFn: 2.3E+17
+
 R2 Score: 0.85
+
 Absolute loss: 1.5E+08
+
 Squared loss: 2.3E+17
+
 RMS loss: 4.8E+08
 
 ---
@@ -93,13 +97,13 @@ RMS loss: 4.8E+08
 
 ### Console Output (Manual)
 
-![Manual Prediction Console Output](https://github.com/ElliotOne/House-Price-Prediction/blob/master/screenshots/manual_console.png)
+![Manual Prediction Console Output](https://github.com/ElliotOne/House-Price-Prediction/blob/master/screenshots/first.png)
 
 ### Model Builder UI (Auto)
 
-![Model Builder UI](https://github.com/ElliotOne/House-Price-Prediction/blob/master/screenshots/modelbuilder_ui.png)
+![Model Builder UI](https://github.com/ElliotOne/House-Price-Prediction/blob/master/screenshots/second.png)
 
-![Model Builder Console](https://github.com/ElliotOne/House-Price-Prediction/blob/master/screenshots/modelbuilder_ui.png)
+![Model Builder Console](https://github.com/ElliotOne/House-Price-Prediction/blob/master/screenshots/third.png)
 
 ---
 
