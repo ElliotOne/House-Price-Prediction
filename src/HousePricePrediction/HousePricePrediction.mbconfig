@@ -1,0 +1,156 @@
+﻿{
+  "Scenario": "Regression",
+  "DataSource": {
+    "Version": 3,
+    "EscapeCharacter": "\"",
+    "ReadMultiLines": false,
+    "KeepDiacritics": false,
+    "KeepPunctuations": false,
+    "AllowQuoting": true,
+    "Type": "TabularFile",
+    "FilePath": "D:\\1.Projects\\4.OpenSource\\HousePricePrediction\\HousePricePrediction\\HousePricePrediction\\dataset.csv",
+    "Delimiter": ",",
+    "DecimalMarker": ".",
+    "HasHeader": true,
+    "ColumnProperties": [
+      {
+        "ColumnName": "column1",
+        "ColumnPurpose": "Ignore",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Area",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Age",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Rooms",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "District",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "PricePerMeter",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Price",
+        "ColumnPurpose": "Label",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      }
+    ]
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "RunHistory": {
+    "Version": 3,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "FastTreeTweedieRegression",
+        "Score": 0.88523332605510807,
+        "RuntimeInSeconds": 0.093000002205371857,
+        "Parameter": {
+          "_SCHEMA_": "e0*e1*e2*e3",
+          "e0": {
+            "OutputColumnNames": [
+              "Area",
+              "Age",
+              "Rooms",
+              "District",
+              "PricePerMeter"
+            ],
+            "InputColumnNames": [
+              "Area",
+              "Age",
+              "Rooms",
+              "District",
+              "PricePerMeter"
+            ]
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Area",
+              "Age",
+              "Rooms",
+              "District",
+              "PricePerMeter"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e2": {
+            "OutputColumnNames": [
+              "Features"
+            ],
+            "InputColumnNames": [
+              "Features"
+            ]
+          },
+          "e3": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 15,
+            "NumberOfTrees": 19,
+            "MaximumBinCountPerFeature": 211,
+            "FeatureFraction": 0.35265224544493157,
+            "LearningRate": 0.99999977667298645,
+            "LabelColumnName": "Price",
+            "FeatureColumnName": "Features"
+          }
+        }
+      }
+    ],
+    "Estimators": {
+      "e0": "ReplaceMissingValues",
+      "e1": "Concatenate",
+      "e2": "NormalizeMinMax",
+      "e3": "FastTreeTweedieRegression"
+    },
+    "Schema": "e0*e1*e2*e3",
+    "MetricName": "RSquared",
+    "ModelFilePath": ""
+  },
+  "Type": "TrainingConfig",
+  "Version": 5,
+  "TrainingOption": {
+    "Version": 2,
+    "Subsampling": false,
+    "Type": "RegressionTrainingOption",
+    "TrainingTime": 120,
+    "LabelColumn": "Price"
+  }
+}

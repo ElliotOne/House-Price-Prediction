@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\1.Projects\\1.Portfolio\\2.OpenSource\\2.Applications_PUSHToGit\\5.HousePricePrediction\\House-Price-Prediction\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{409A6C6F-C4EA-4ADB-8CED-29C4CFFE729E}|HousePricePrediction_Auto\\HousePricePrediction_Auto.csproj|d:\\1.projects\\1.portfolio\\2.opensource\\2.applications_pushtogit\\5.housepriceprediction\\house-price-prediction\\src\\housepriceprediction_auto\\housepriceprediction.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}",
+      "RelativeMoniker": "D:0:0:{409A6C6F-C4EA-4ADB-8CED-29C4CFFE729E}|HousePricePrediction_Auto\\HousePricePrediction_Auto.csproj|solutionrelative:housepriceprediction_auto\\housepriceprediction.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HousePricePrediction.mbconfig",
+              "DocumentMoniker": "D:\\1.Projects\\1.Portfolio\\2.OpenSource\\2.Applications_PUSHToGit\\5.HousePricePrediction\\House-Price-Prediction\\src\\HousePricePrediction_Auto\\HousePricePrediction.mbconfig",
+              "RelativeDocumentMoniker": "HousePricePrediction_Auto\\HousePricePrediction.mbconfig",
+              "ToolTip": "D:\\1.Projects\\1.Portfolio\\2.OpenSource\\2.Applications_PUSHToGit\\5.HousePricePrediction\\House-Price-Prediction\\src\\HousePricePrediction_Auto\\HousePricePrediction.mbconfig",
+              "RelativeToolTip": "HousePricePrediction_Auto\\HousePricePrediction.mbconfig",
+              "Icon": "7f5c38b0-f0bc-4551-a9a8-b4f467cc4670.000012|",
+              "WhenOpened": "2025-05-08T00:08:49.42Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
